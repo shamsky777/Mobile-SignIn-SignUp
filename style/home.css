@@ -1,0 +1,196 @@
+.container {
+    margin: 0 auto;
+    width: 393px;
+    height: 852px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    background-color: #00695C;
+}
+
+.img1 {
+    margin-top: 134px;
+    margin-left: 18px;
+}
+
+.welcome {
+    position: relative;
+    top: 65px;
+    left: 116px;
+    width: 176px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.jointask {
+    position: relative;
+    margin: 0 auto;
+    top: 135px;
+    width: 333px;
+    height: 48px;
+}
+
+.jointask p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.rectangle {
+    position: absolute;
+    display: flex;
+    top: 71.83%;
+    bottom: 23%;
+    left: 6.36%;
+    border: 2px solid red;
+    width: 166px;
+    height: 44px;
+    border: 1px solid #4BA57D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rectangle a {
+    position: absolute;
+    margin-left: 52px;
+    margin-top: 9px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #99F9CF;
+}
+
+
+.rectangle2 {
+    position: absolute;
+    left: 51.91%;
+    right: 6.36%;
+    top: 71.83%;
+    bottom: 23%;
+    width: 164px;
+    height: 44px;
+    background: #98F8CD;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rectangle2 a {
+    position: absolute;
+    margin-left: 47px;
+    margin-top: 9px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #34495E;
+}
+
+
+.group {
+    position: absolute;
+    left: 9.92%;
+    right: 13.23%;
+    top: 81.1%;
+    bottom: 17.02%;
+    width: 302px;
+    height: 16px;
+}
+
+
+.group .rectangle3 {
+    position: absolute;
+    margin-top: 8px;
+    width: 98px;
+    height: 1px;
+    background: linear-gradient(89.99deg, rgba(255, 253, 253, 0.75) 0%, rgba(255, 151, 60, 0.7425) 105.61%);
+    transform: rotate(-180deg);
+}
+
+.group p {
+    position: absolute;
+    left: 37.66%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.25px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.group .rectangle4 {
+    position: absolute;
+    margin-top: 8px;
+    left: 204px;
+    width: 98px;
+    height: 1px;
+    background: linear-gradient(89.99deg, rgba(255, 253, 253, 0.75) 0%, rgba(255, 151, 60, 0.7425) 105.61%);
+}
+
+.card1 {
+    border: 1px solid white;
+    position: absolute;
+    left: 23.16%;
+    right: 62.06%;
+    top: 84.98%;
+    bottom: 9.86%;
+    border-radius: 8.85px;
+    filter: drop-shadow(0px 2.98305px 2.98305px rgba(0, 0, 0, 0.09));
+    cursor: pointer;
+}
+
+.card1 .googleicon {
+    margin-left: 19px;
+    margin-top: 12px;
+    width: 19.39px;
+    height: 19.39px;
+}
+
+.card2 {
+    position: absolute;
+    left: 43.11%;
+    right: 42.1%;
+    top: 84.98%;
+    bottom: 9.86%;
+    border: 1px solid white;
+    border-radius: 8.85px;
+    filter: drop-shadow(0px 2.98305px 2.98305px rgba(0, 0, 0, 0.09));
+    cursor: pointer;
+}
+
+.card2 .appleicon {
+    height: 19.39px;
+    margin-left: 16px;
+    margin-top: 11px;
+}
+
+.card3 {   
+    position: absolute;
+    left: 63.07%;
+    right: 22.14%;
+    top: 84.98%;
+    bottom: 9.86%;
+    border: 1px solid white;
+    border-radius: 8.85px;
+    filter: drop-shadow(0px 2.98305px 2.98305px rgba(0, 0, 0, 0.09));
+    cursor: pointer;
+}
+
+.card3 .fbicon {
+    margin-left: 16px;
+    margin-top: 11px;
+}

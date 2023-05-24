@@ -1,0 +1,131 @@
+.container {
+    width: 393px;
+    height: 852px;
+    margin: 0 auto;  
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+
+.fotoli .fotoliimg {
+    margin-top: 72px;
+    margin-left: 10px;
+}
+
+.signtext {
+    position: relative;
+    left: 50.13%;
+    right: 22.9%;
+    bottom: 15%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    color: #34495E;
+}
+
+/* Registracia */
+
+.rectangle input {
+    width: 327px;
+    height: 58px;
+    margin-top: 75px;
+    margin-left: 33px;
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid rgba(52, 73, 94, 0.6);
+    border-radius: 10px;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+.regvector {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 40px;
+}
+
+.regemail {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 40px;
+    color: #34495E;
+    font-size: 15px;
+}
+
+.rectangle2 input {
+    width: 327px;
+    height: 58px;
+    margin-top: 160px;
+    margin-left: 33px;
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid rgba(52, 73, 94, 0.6);
+    border-radius: 10px;
+}
+
+.regvector1 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+
+.regpassword {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 40px;
+    font-size: 15px;
+    color: #34495E;
+}
+
+/* ForgetPassword */
+
+.forget {
+    width: 103px;
+    height: 17px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 260px;
+}
+
+.forget p {   
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #0C41FD;
+    cursor: pointer;
+}
+
+/* SignInBtn */
+
+.SignIn-btn {
+    position: absolute;
+    width: 327px;
+    height: 58px;
+    margin-top: 280px;
+    margin-left: 33px;
+    background: #00695C;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.SignIn-btn p {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #B2DFDB;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 131px;
+}

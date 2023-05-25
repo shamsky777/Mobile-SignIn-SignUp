@@ -1,0 +1,224 @@
+.container {
+    width: 393px;
+    height: 852px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.signuptext {
+    width: 119px;
+    height: 46px;
+    margin-top: 144px;
+    margin-left: 60px;
+}
+
+.signuptext p {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    color: #34495E;
+}
+
+.fotolisfoto img {
+    position: absolute;
+    width: 179px;
+    height: 132px;
+    margin-left: 182px;
+    bottom: 680px;
+}
+
+/* Registracia */
+
+.rectangle input{
+    width: 327px;
+    height: 58px;
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid rgba(52, 73, 94, 0.6);
+    border-radius: 10px;
+    margin-top: 143px;
+    margin-left: 34px;
+}
+
+.rectangle label {
+    position: absolute;
+    color: #34495E;
+    margin-top: 125px;
+    margin-left: 50px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #34495E;
+}
+
+.rectangle1 input{
+    margin-top: 229px;
+    margin-left: 34px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 327px;
+    height: 58px;
+    border: 1px solid rgba(52, 73, 94, 0.6);
+    border-radius: 10px;
+}
+
+.rectangle1 label {
+    position: absolute;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #34495E;
+    margin-top: 210px;
+    margin-left: 50px;
+}
+
+.rectangle2 input{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 34px;
+    width: 327px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgba(52, 73, 94, 0.6);
+    border-radius: 10px;
+}
+
+.rectangle2 label { 
+    position: absolute;
+    margin-top: 298px;
+    margin-left: 50px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #34495E;
+}
+
+/* Sign In */
+
+.signin {
+    width: 327px;
+    height: 58px;  
+    background: #00695C;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 422px;
+    margin-left: 34px;
+    cursor: pointer;
+}
+
+.signin p {
+    position: absolute;
+    margin-left: 131px;
+    margin-top: 16px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.group {
+    position: absolute;
+    width: 303px;
+    height: 79px;
+    margin-top: 508px;
+    margin-left: 43px;
+}
+
+.continue {
+    width: 303px;
+    height: 17px;
+    display: flex;
+}
+
+.continue .hr1 {
+    margin-top: 8px;
+    width: 98px;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(16, 16, 16, 0.75) 0%, rgba(217, 217, 217, 0) 94.39%);
+}
+
+.continue p {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 11.25px;
+line-height: 17px;
+color: #424242;
+margin-left: 8px;
+}
+
+.continue .hr2 {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 98px;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(16, 16, 16, 0.75) 0%, rgba(217, 217, 217, 0) 94.39%);
+}
+
+.gmail {
+    position: absolute;
+    display: flex;
+    width: 58.1px;
+    height: 44px;
+    margin-left: 49px;
+    margin-top: 16px;
+    background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(18, 17, 17, 0.2) 0%, rgba(255, 255, 255, 0.0447917) 77.08%, rgba(255, 255, 255, 0) 100%);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(6.00262px);
+    border-radius: 8.85386px;
+    cursor: pointer;
+}
+
+.gmail img {
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.apple {
+    position: absolute;
+    width: 58.1px;
+    height: 44px;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(6.00262px);
+    border-radius: 8.85386px;
+    margin-left: 123px;
+    margin-top: 16px;
+}
+
+.apple img {
+    margin-top: 4px;
+    width: 60.34px;
+    height: 30.39px;
+}
+
+.facebook {
+    position: absolute;
+    width: 58.1px;
+    height: 44px;
+    background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(31, 30, 30, 0.2) 0%, rgba(255, 255, 255, 0.0447917) 77.08%, rgba(255, 255, 255, 0) 100%);
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(6.00262px);
+    border-radius: 8.85386px;
+    margin-left: 201px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.facebook img {
+    margin-top: 11px;
+    margin-left: 16px;
+}

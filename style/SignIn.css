@@ -27,7 +27,7 @@
     color: #34495E;
 }
 
-/* Registracia */
+/* Login */
 
 .rectangle input {
     width: 327px;
@@ -44,13 +44,13 @@ input[type="text"]::placeholder {
     text-align: center;
 }
 
-.regvector {
+.logvector {
     position: absolute;
     margin-top: 95px;
     margin-left: 40px;
 }
 
-.regemail {
+.logemail {
     position: absolute;
     margin-top: 55px;
     margin-left: 40px;
@@ -69,13 +69,13 @@ input[type="text"]::placeholder {
     border-radius: 10px;
 }
 
-.regvector1 {
+.logvector1 {
     position: absolute;
     margin-top: 180px;
     margin-left: 40px;
 }
 
-.regpassword {
+.logpassword {
     position: absolute;
     margin-top: 140px;
     margin-left: 40px;
